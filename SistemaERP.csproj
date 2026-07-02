@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaERP.Application\SistemaERP.Application.csproj" />
+    <ProjectReference Include="..\SistemaERP.Domain\SistemaERP.Domain.csproj" />
+    <ProjectReference Include="..\SistemaERP.Infrastructure\SistemaERP.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
